@@ -1,0 +1,33 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+.env
+*.npy
+*.npz
+*.pkl
+*.h5
+*.hdf5
+# Keep results/RESULTS.md and figures, but not large binary arrays
+results/*.npy
+results/*.npz
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+# Test cache
+.pytest_cache/
+.mypy_cache/
